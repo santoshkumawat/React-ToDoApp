@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .todo-container{
@@ -34,4 +35,5 @@ body{
     cursor: pointer;
     padding: 10px 20px;
     margin-top: 10px;
+    font-size: 1.2rem;
 }

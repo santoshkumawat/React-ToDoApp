@@ -1,8 +1,8 @@
 import React from "react";
 
-const Button = () => {
+const Button = (props) => {
     return (
-        <button className="todo-button">Add Todo</button>
+        <button className="todo-button">{props.name}</button>
     );
 }
 

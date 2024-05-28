@@ -7,13 +7,13 @@ import "./style.css";
 const App = () => {
   return (
     <div className="todo-container">
-      <Header></Header>
-      <TodoItem></TodoItem>
-      <TodoItem></TodoItem>
-      <TodoItem></TodoItem>
-      <TodoItem></TodoItem>
-      <TodoItem></TodoItem>
-      <Button></Button>
+      <Header title="Todo App"></Header>
+      <TodoItem text="Eat"></TodoItem>
+      <TodoItem text="Code"></TodoItem>
+      <TodoItem text="Coffee"></TodoItem>
+      <TodoItem text="Sleep"></TodoItem>
+      <TodoItem text="Repeat"></TodoItem>
+      <Button name="Add Todo"></Button>
     </div>
   );
 }
